@@ -13,7 +13,7 @@ import dagger.multibindings.IntoMap
 @Module(subcomponents = [MainActivityComponent::class])
 abstract class ActivityBindingModule {
 
-
+    //test
     @Binds
     @IntoMap
     @ActivityKey(MainActivity::class)
